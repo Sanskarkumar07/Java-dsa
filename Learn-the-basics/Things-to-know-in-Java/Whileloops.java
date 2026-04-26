@@ -6,12 +6,9 @@ public class Whileloops {
             sum += numDigit;
             numDigit += 10;
         }
-
         return sum;
     }
     public static void main(String[] args) {
         System.out.println(whileLoop(1));
-
-
     }
 }
