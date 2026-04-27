@@ -58,7 +58,7 @@ public class Patterns {
         // print4(5);
         // print5(5);
         // print6(5);
-
+        
        
     }
 
