@@ -52,13 +52,13 @@ public class Patterns {
     }
     public static void main(String[] args) {
 
-        // print1(5);
-        // print2(5);
-        // print3(5);
-        // print4(5);
-        // print5(5);
-        // print6(5);
-        
+        print1(5);
+        print2(5);
+        print3(5);
+        print4(5);
+        print5(5);
+        print6(5);
+
        
     }
 
