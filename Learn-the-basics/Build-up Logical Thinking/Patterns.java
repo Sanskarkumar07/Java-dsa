@@ -52,28 +52,26 @@ public class Patterns {
     }
     public static void print7(int n) {
         for (int i = 1; i <= n; i++) {
-            for (int j = n; j > i; j--) {
+            for (int j = i; j < n; j++) {
+                // space
                 System.out.print(" ");
             }
-            for (int k = 1; k <= 2*i - 1; k++) {
+            for (int k = 1; k <= 2 * i -  1; k++) {
+                // stars
                 System.out.print("*");
-            }
-            for (int l = n; l > i; l--) {
-                System.out.print(" ");
             }
             System.out.println();
         }
     }
     public static void main(String[] args) {
 
-        // print1(5);
-        // print2(5);
-        // print3(5);
-        // print4(5);
-        // print5(5);
-        // print6(5);
-        print7(5);
-       
-    }
+    // print1(5);
+    // print2(5);
+    // print3(5);
+    // print4(5);
+    // print5(5);
+    // print6(5);
+    print7(5);
+}
 
 }
